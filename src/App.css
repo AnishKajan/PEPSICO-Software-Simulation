@@ -1,0 +1,38 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #212529;
+}
+
+.dashboard-wrapper {
+  padding: 2rem 5vw;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.distributor-table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
+}
+
+.distributor-table th,
+.distributor-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.distributor-table th {
+  cursor: pointer;
+  background: #eef1f5;
+  user-select: none;
+}
+
+.distributor-table tr:nth-child(even) td {
+  background: #fafbfc;
+}
